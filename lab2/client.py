@@ -1,7 +1,7 @@
 import socket, sys
 
-HOST = 'www.google.com'
-PORT = 80
+HOST = ''
+PORT = 8080
 PAYLOAD = f'GET / HTTP/1.0\r\nHost: {HOST}\r\n\r\n'
 buffer_size = 4096
 
