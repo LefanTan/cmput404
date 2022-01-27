@@ -8,5 +8,3 @@ indicates that it is a TCP socket.
 4. we receive information about the client host IP and the port as well.
 
 5. \r\n\r\n indicates that it is the end of a http request
-
-6. 
