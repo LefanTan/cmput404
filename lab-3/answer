@@ -1,0 +1,5 @@
+1. By running the cgi_server.py script, and then calling print(os.environ) on a hello.py script 
+2. QUERY_STRING
+3. HTTP_USER_AGENT
+4. When user click login, a POST method is make to login.py. s.getfirst("username") and s.getfirst("password") then gets the value
+from the form's input fields that has the name - username and password. 
