@@ -1,0 +1,10 @@
+1.https://github.com/LefanTan/cmput404/tree/master/lab4
+2. Shows us a template of the django webserver, with a heading that says "The install worked successfully! Congratulations!"
+3. When navigate to "/", I receive a 404 not found error, but "/polls" brings me to the correct view.
+4. makemigration tells Django that changes have been made to my models and to store those changes as a migration. The migration command then apply those changes to the database.
+5. By doing admin.site.register({model}), we tell Django admin site that we want to see the model there.
+6. /polls/38 will return the view in detail(), /polls/38/results will return the view from results() and /polls/38/vote will return the view from vote()
+To allow arbitrary alphabetic characters, I would change <int:question_id> to <slug:question_id>
+7. Because if we want to move "polls" app into a different view, we would have to change the urls manually.
+8. Generic views remove redudancies from similar views. Generic views should be used when pages I needed to be create are simple, but in a case of complex views, generic views might not be useful.
+9.
