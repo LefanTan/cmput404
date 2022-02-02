@@ -3,3 +3,7 @@
 3. HTTP_USER_AGENT
 4. When user click login, a POST method is make to login.py. s.getfirst("username") and s.getfirst("password") then gets the value
 from the form's input fields that has the name - username and password. 
+5. By sending a response header "Set-Cookie: username={username}"
+6. Cookie: username={username}; password={password}
+7. Cookie is used to store small pieces of data such as username and password that will make the browsing experience better. 
+8. https://github.com/LefanTan/cmput404/tree/master/lab3
